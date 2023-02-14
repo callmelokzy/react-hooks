@@ -53,11 +53,9 @@ function StateFunction() {
             <button onClick={() => { setCount(prevCount => (count + 5)) }}>Increment </button>
 
         </div >
-
-
-//------------------------------------------------------------------------------------
-// USESTATE with OBJECT
     )
 }
 
 export default StateFunction
+
+
