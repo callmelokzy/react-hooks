@@ -15,7 +15,10 @@ import { useState } from 'react'
 // UPDATE STATE USING PREV-STATE
 function StateFunction() {
     const initialState = 0
-    const [count, setCount] = useState(initialState) //The useState hook in React returns an array with two elements: the current state value, and a function to update that value. You can use array destructuring to assign these values to variables
+    const [count, setCount] = useState(initialState) /*The useState hook in React returns an array with two elements: 
+    the current state value, and a function to update that value. You can use array destructuring to assign these values to variables
+    In this example, count is the current state value (initialized to 0), and setCount is the function to update that value. 
+    You can call setCount with a new value to update the state, and React will re-render the component with the 
 
     return (
 
