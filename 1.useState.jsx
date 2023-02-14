@@ -5,7 +5,8 @@ import { useState } from 'react'
 /* SIMPLE USE-STATE
 function StateFunction() {
     const [count, setCount] = useState(0)
-    const incrementCount = function () { setCount(count + 1) }     ---> defining a function called incrementCount that uses the setCount function to update the value of the count state by incrementing it by 1. 
+    const incrementCount = function () { setCount(count + 1) }     ---> defining a function called incrementCount that 
+                                                uses the setCount function to update the value of the count state by incrementing it by 1. 
                                                 This function can be used to update the state value of count in a React component.
     return (
         <div>
