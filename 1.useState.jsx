@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 
-/* SIMPLE USE-STATE
+/* SIMPLE USESTATE USAGE and  Updating STATE
 function StateFunction() {
     const [count, setCount] = useState(0)
     const incrementCount = function () { setCount(count + 1) }     ---> defining a function called incrementCount that 
@@ -53,6 +53,10 @@ function StateFunction() {
             <button onClick={() => { setCount(prevCount => (count + 5)) }}>Increment </button>
 
         </div >
+
+
+//------------------------------------------------------------------------------------
+// USESTATE with OBJECT
     )
 }
 
